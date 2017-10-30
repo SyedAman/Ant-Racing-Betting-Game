@@ -34,3 +34,9 @@ function generateAntWinLikelihoodCalculator() {
   };
 }
 ```
+
+## Mockups
+
+![](https://user-images.githubusercontent.com/11065634/32199941-00d9dd36-bd9d-11e7-86e5-7fd4dbb97ab0.png)
+![](https://user-images.githubusercontent.com/11065634/32199938-fd60d5b0-bd9c-11e7-87b7-ce0f0b3f13cb.png)
+![](https://user-images.githubusercontent.com/11065634/32199941-00d9dd36-bd9d-11e7-86e5-7fd4dbb97ab0.png)
