@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { MuiThemeProvider } from 'material-ui/styles'
 
+import NavBar from '../../components/NavBar'
 import './App.css';
 
 class App extends Component {
@@ -8,6 +9,7 @@ class App extends Component {
     return (
       <MuiThemeProvider>
         <div className="App">
+          <NavBar title="Match Center" />
         </div>
       </MuiThemeProvider>
     )

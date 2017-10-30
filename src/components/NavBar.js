@@ -7,7 +7,9 @@ import AppBar from 'material-ui/AppBar';
  * @param  {Object} props - Passed down data in the form of properties.
  */
 const NavBar = (props) => (
-  <AppBar />
+  <AppBar
+    title={props.title}
+  />
 );
 
 export default NavBar;
