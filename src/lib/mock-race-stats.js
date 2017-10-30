@@ -20,3 +20,5 @@ const  mockRaceStats = [
     status: 'upcoming'
   }
 ]
+
+export default mockRaceStats
