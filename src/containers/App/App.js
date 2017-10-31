@@ -3,6 +3,7 @@ import { MuiThemeProvider } from 'material-ui/styles'
 
 import NavBar from '../../components/NavBar'
 import TabBar from '../../components/TabBar'
+import BottomNav from '../../components/BottomNav'
 import Upcoming from '../Upcoming'
 
 import './App.css';
@@ -15,6 +16,7 @@ class App extends Component {
           <NavBar title="Match Center" />
           <TabBar />
           <Upcoming />
+          <BottomNav />
         </div>
       </MuiThemeProvider>
     )
