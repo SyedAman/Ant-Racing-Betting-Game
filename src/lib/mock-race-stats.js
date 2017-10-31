@@ -19,6 +19,6 @@ const  mockRaceStats = [
     winners: [],
     status: 'upcoming'
   }
-]
+];
 
-export default mockRaceStats
+export default mockRaceStats;
