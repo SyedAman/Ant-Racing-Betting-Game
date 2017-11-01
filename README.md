@@ -1,4 +1,4 @@
-# Frontend take-home challenge
+# Ant Win Likelihood
 
 Hello! We want to get a sense of how you solve problems in the front-end, and to do so we ask that you complete this take-home coding challenge.
 
@@ -17,6 +17,7 @@ Here are the specifications provided by our stakeholders:
   - As the results come in, ants must be ordered by their calculated likelihood of winning.
 
 - The app should be written in Javascript, but how you implement the app is up to your discretion.
+
 - When you're done, please send us a link to your submission's GitHub repo, and instructions on how to run it.
 - The app should be written in Javascript
 
@@ -37,6 +38,4 @@ function generateAntWinLikelihoodCalculator() {
 
 ## Mockups
 
-![](https://user-images.githubusercontent.com/11065634/32199941-00d9dd36-bd9d-11e7-86e5-7fd4dbb97ab0.png)
-![](https://user-images.githubusercontent.com/11065634/32199938-fd60d5b0-bd9c-11e7-87b7-ce0f0b3f13cb.png)
-![](https://user-images.githubusercontent.com/11065634/32199941-00d9dd36-bd9d-11e7-86e5-7fd4dbb97ab0.png)
+![](https://user-images.githubusercontent.com/11065634/32199941-00d9dd36-bd9d-11e7-86e5-7fd4dbb97ab0.png) ![](https://user-images.githubusercontent.com/11065634/32199938-fd60d5b0-bd9c-11e7-87b7-ce0f0b3f13cb.png) ![](https://user-images.githubusercontent.com/11065634/32199941-00d9dd36-bd9d-11e7-86e5-7fd4dbb97ab0.png)
