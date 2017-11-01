@@ -9,15 +9,17 @@ import RestoreIcon from 'material-ui-icons/Restore';
  * @param {Object} props - Data passed in from parent component as properties.
  */
 const BottomNav = props => (
-  <BottomNavigation showLabels>
+  <BottomNavigation value="upcoming" showLabels>
     {/* Takes user to Upcoming page. */}
     <BottomNavigationButton
+      value="upcoming"
       label="Upcoming"
       icon={<EventIcon />}
     />
 
     {/* Takes user to Recent page. */}
     <BottomNavigationButton
+      value="recent"
       label="Recent"
       icon={<RestoreIcon />}
     />
