@@ -11,6 +11,7 @@ import IconButton from 'material-ui/IconButton';
  * @param  {Object} props - Passed down data in the form of properties.
  */
 const NavBar = (props) => (
+  // TODO: make nav bar fixed with app height changes
   <AppBar position="static" color="primary">
     <Toolbar>
       <Typography type="title" color="inherit">
