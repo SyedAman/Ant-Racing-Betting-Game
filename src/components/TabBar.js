@@ -1,19 +1,18 @@
 import React from 'react';
-import { Tab, Tabs } from 'material-ui/Tabs';
-import FontIcon from 'material-ui/FontIcon';
+import Tabs, { Tab } from 'material-ui/Tabs';
 
 const TabBar = props => (
   <Tabs>
     {/* Navigation to the Upcoming page. */}
     <Tab
       label="Upcoming"
-      icon={<FontIcon className="material-icons">event</FontIcon>}
+      icon={<i className="material-icons">event</i>}
     />
 
     {/* Navigation to the Recent page. */}
     <Tab
       label="Recent"
-      icon={<FontIcon className="material-icons">done</FontIcon>}
+      icon={<i className="material-icons">done</i>}
     />
   </Tabs>
 );
