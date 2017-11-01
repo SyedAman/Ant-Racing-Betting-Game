@@ -7,8 +7,6 @@ import NavBar from '../../components/NavBar';
 import BottomNav from '../../components/BottomNav';
 import Upcoming from '../Upcoming';
 
-import './App.css';
-
 class App extends Component {
   render() {
     return (

@@ -6,7 +6,7 @@ import 'typeface-roboto' // roboto font
 import App from './containers/App/App'
 import registerServiceWorker from './lib/registerServiceWorker'
 
-import './index.css'
+import './assets/styles/index.css'
 
 ReactDOM.render(<App />, document.getElementById('root'))
 registerServiceWorker()
