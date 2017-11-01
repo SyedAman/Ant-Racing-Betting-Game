@@ -20,7 +20,7 @@ class App extends Component {
           {/* Top navigation. */}
           <NavBar title="Match Center" />
 
-          <Typography type="subheading" align="left" gutterbottom>
+          <Typography type="subheading" align="left">
             Upcoming Races
           </Typography>
           <Upcoming />
