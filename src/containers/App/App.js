@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import NavBar from '../../components/NavBar'
-import BottomNav from '../../components/BottomNav'
-import Upcoming from '../Upcoming'
+import NavBar from '../../components/NavBar';
+import BottomNav from '../../components/BottomNav';
+import Upcoming from '../Upcoming';
 
 import './App.css';
 
@@ -14,7 +14,7 @@ class App extends Component {
         <Upcoming />
         <BottomNav />
       </div>
-    )
+    );
   }
 }
 
