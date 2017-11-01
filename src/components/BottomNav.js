@@ -19,7 +19,6 @@ const BottomNav = props => (
       label="Recent"
       icon={<i className="material-icons">restore</i>}
     />
-
   </BottomNavigation>
 );
 

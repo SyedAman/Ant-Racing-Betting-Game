@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 // import { MuiThemeProvider } from 'material-ui/styles'
 
 import NavBar from '../../components/NavBar'
-import TabBar from '../../components/TabBar'
 import BottomNav from '../../components/BottomNav'
 import Upcoming from '../Upcoming'
 
@@ -14,7 +13,6 @@ class App extends Component {
       // <MuiThemeProvider>
         <div className="App">
           <NavBar title="Match Center" />
-          <TabBar />
           <Upcoming />
           <BottomNav />
         </div>
