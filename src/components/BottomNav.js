@@ -1,17 +1,16 @@
 import React from 'react';
-import FontIcon from 'material-ui/FontIcon';
-import { BottomNavigation, BottomNavigationItem } from 'material-ui/BottomNavigation';
+import BottomNavigation, {BottomNavigationButton } from 'material-ui/BottomNavigation';
 
 const BottomNav = props => (
   <BottomNavigation>
-    <BottomNavigationItem
+    <BottomNavigationButton
       label="Upcoming"
-      icon={<FontIcon className="material-icons">event</FontIcon>}
+      icon={<i className="material-icons">event</i>}
     />
 
-    <BottomNavigationItem
+    <BottomNavigationButton
       label="Recent"
-      icon={<FontIcon className="material-icons">done</FontIcon>}
+      icon={<i className="material-icons">done</i>}
     />
 
   </BottomNavigation>
