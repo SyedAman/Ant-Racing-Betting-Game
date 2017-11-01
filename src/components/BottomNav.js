@@ -1,5 +1,7 @@
 import React from 'react';
 import BottomNavigation, {BottomNavigationButton } from 'material-ui/BottomNavigation';
+import EventIcon from 'material-ui-icons/Event';
+import RestoreIcon from 'material-ui-icons/Restore';
 
 /**
  * Navigation bar on the bottom of the screen that takes users to key locations.
@@ -11,13 +13,13 @@ const BottomNav = props => (
     {/* Takes user to Upcoming page. */}
     <BottomNavigationButton
       label="Upcoming"
-      icon={<i className="material-icons">event</i>}
+      icon={<EventIcon />}
     />
 
     {/* Takes user to Recent page. */}
     <BottomNavigationButton
       label="Recent"
-      icon={<i className="material-icons">restore</i>}
+      icon={<RestoreIcon />}
     />
   </BottomNavigation>
 );
