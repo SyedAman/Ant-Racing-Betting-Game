@@ -29,6 +29,6 @@ const mockAntStats = [
     "length": 17,
     "weight": 3
   }
-]
+];
 
-export default mockAntStats
+export default mockAntStats;

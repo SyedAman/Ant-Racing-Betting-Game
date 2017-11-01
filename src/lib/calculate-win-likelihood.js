@@ -16,4 +16,4 @@ function generateAntWinLikelihoodCalculator() {
   };
 }
 
-export default generateAntWinLikelihoodCalculator
+export default generateAntWinLikelihoodCalculator;
