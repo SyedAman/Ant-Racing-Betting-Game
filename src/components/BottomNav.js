@@ -7,7 +7,7 @@ import BottomNavigation, {BottomNavigationButton } from 'material-ui/BottomNavig
  * @param {Object} props - Data passed in from parent component as properties.
  */
 const BottomNav = props => (
-  <BottomNavigation>
+  <BottomNavigation showLabels>
     {/* Takes user to Upcoming page. */}
     <BottomNavigationButton
       label="Upcoming"
@@ -17,7 +17,7 @@ const BottomNav = props => (
     {/* Takes user to Recent page. */}
     <BottomNavigationButton
       label="Recent"
-      icon={<i className="material-icons">done</i>}
+      icon={<i className="material-icons">restore</i>}
     />
 
   </BottomNavigation>
