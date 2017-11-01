@@ -7,6 +7,10 @@ import NavBar from '../components/NavBar';
 import BottomNav from '../components/BottomNav';
 import Upcoming from './Upcoming';
 
+/**
+ * The root app component.
+ * @type {Object}
+ */
 class App extends Component {
   render() {
     return (
